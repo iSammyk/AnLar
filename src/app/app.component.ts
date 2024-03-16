@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { TodoComponent } from './todo/todo.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { FormComponent } from './form/form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, TodoComponent, SidebarComponent],
+  imports: [RouterOutlet, HomeComponent, TodoComponent, SidebarComponent, FormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
