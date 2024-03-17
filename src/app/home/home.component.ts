@@ -37,6 +37,5 @@ public alluser: Array<string> = []
   
  ngOnInit(){
   console.log(this.country);
-  
  }
 }
