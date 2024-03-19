@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { TodoComponent } from './todo/todo.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FormComponent } from './form/form.component';
+import { ShowTodoComponent } from './show-todo/show-todo.component';
 
 @Component({
   selector: 'app-root',
