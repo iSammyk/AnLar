@@ -1,0 +1,10 @@
+<div class="max-w-md mx-auto bg-gray-400 p-3 pt-2 rounded">
+    <h2 class="text-xl font-semibold mb-4 text-center mt-2">Dashboard</h2>
+    <div *ngIf="currentUser">
+      <p>Email: {{ currentUser.email }}</p>
+      <p>Name: {{ currentUser.username }}</p>
+      <p>Gender: {{ currentUser.gender }}</p>
+    </div>
+    <button (click)="logout()" class="btn bg-red-500 p-2 ms-40 rounded">log out</button>
+  </div>
+  

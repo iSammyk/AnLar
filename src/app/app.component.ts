@@ -5,11 +5,12 @@ import { TodoComponent } from './todo/todo.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FormComponent } from './form/form.component';
 import { ShowTodoComponent } from './show-todo/show-todo.component';
+import { SignupComponent } from './signup/signup.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, TodoComponent, SidebarComponent, FormComponent],
+  imports: [RouterOutlet, HomeComponent, TodoComponent, SidebarComponent, FormComponent, SignupComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
