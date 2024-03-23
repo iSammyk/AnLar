@@ -18,9 +18,9 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
     // const storedUser = localStorage.getItem('currentUser');
     this.currentUser = this.currUser.currUser() || null;
-    // console.log(this.currentUser);
+    console.log(this.currentUser);
     
-    // console.log(this.currUser.currUser());
+    console.log(this.currUser.currUser());
     
   }
 
