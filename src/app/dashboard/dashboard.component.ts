@@ -26,5 +26,6 @@ export class DashboardComponent implements OnInit {
 
   logout(){
     this.router.navigate(['login']);
+    localStorage.removeItem('currentUser')
   }
 }
