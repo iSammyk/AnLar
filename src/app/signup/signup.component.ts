@@ -31,10 +31,8 @@ export class SignupComponent {
       this.User = {};
       localStorage.setItem('infos', JSON.stringify(this.allUsers));
       
-      // Navigate to the login page after successful signup
       this.router.navigate(['login']);
     } else {
-      // Handle case where form fields are not filled
       alert('Please fill in all required fields.');
     }
   }
