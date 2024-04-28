@@ -2,13 +2,33 @@
 <h1 class="text-blue-500">
     welcome {{name}}
 </h1>
+<h1>
+    angular pipes
+</h1>
+<h3>{{3000 | currency: "EUR"}}</h3>
+<hr>
 
+<h1>Date Pipes</h1>
+<h3>{{date | date:"shortDate"}} </h3>
+<h3>{{date | date:"mediumDate"}} </h3>
+<h3>{{date | date:"longDate"}} </h3>
+<hr>
+
+<h1>percentage pipes</h1>
+<h3>{{0.25 | percent}}</h3>
+<h3>{{0.50 | percent}}</h3>
+<h3>{{0.75 | percent}}</h3>
+<h3>{{1 | percent}}</h3>
+<hr>
+
+<h1>Decimal pipes</h1>
+<h2>{{3.5448765 | number}}</h2>
 <div>
     <button (click)="doSomething()" class="mx-3 bg-green-300 rounded p-2">click me</button>
     <!-- <input (input)="typeSomething($event)" class="p-2" type="text"> -->
 
     <h2 class="text-blue-500 text-lg mx-3">{{myText}}</h2>
-
+    
     <main> 
     <h1 class="fs-1 text-center mx-auto" >
       Welcome to home

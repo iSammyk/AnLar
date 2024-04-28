@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  public date = new Date();
  public name = "testing"
  private country = "ghana"  
 
